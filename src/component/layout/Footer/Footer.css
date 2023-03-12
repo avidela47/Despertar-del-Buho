@@ -1,0 +1,156 @@
+footer {
+  margin-top: 14.1vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  text-decoration: none;
+  font-family: "Neuton";
+  font-size: 1.2vmax;
+  text-align: justify;
+}
+
+.map {
+  font-size: 2.0vmax;
+  margin-left: 50px;
+  color: white;
+  font-family: "Neuton";
+}
+
+.map2 {
+  text-decoration: none;
+  color: white;
+  font-family: "Neuton";
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  font-family: "Neuton";
+}
+
+.leftFooter>h4 {
+  font-family: "Neuton";
+  font-size: 1.4vmax;
+}
+
+.midFooter {
+  width: 60%;
+  text-align: center;
+  font-family: "Neuton";
+}
+
+.midFooter>h1 {
+  font-size: 2vmax;
+  font-family: "Neuton";
+  color: #eb4034;
+}
+
+.midFooter>p {
+  max-width: 60%;
+  font-family: "Neuton";
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Neuton";
+}
+
+.rightFooter>h4 {
+  font-family: "Neuton";
+  font-size: 1.4vmax;
+}
+
+.rightFooter>a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Neuton";
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter>a:hover {
+  color: #eb4034;
+}
+
+@media screen and (max-width: 600px) {
+  .address {
+    font-size: 0.8vmax;
+  }
+
+  .map {
+    font-size: 1.6vmax;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .map2 {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9vmax;
+  }
+
+  .leftFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 1.2vmax;
+  }
+
+  .leftFooter>h4 {
+    font-family: "Neuton";
+    font-size: 1.2vmax;
+    margin-top: 0vmax;
+  }
+
+  .midFooter>img {
+    width: 40%;
+    text-align: center;
+  }
+
+  .midFooter>h1 {
+    font-size: 1vmax;
+  }
+
+  .midFooter>p {
+    font-size: 1vmax;
+  }
+
+  .rightFooter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1vmax;
+  }
+  
+  .rightFooter>h4 {
+    font-family: "Neuton";
+    font-size: 1.1vmax;
+  }
+  
+  .rightFooter>a {
+    text-decoration: none;
+    font-size: 1.1vmax;
+    font-family: "Neuton";
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  
+}
